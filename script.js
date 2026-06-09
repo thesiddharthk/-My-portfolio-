@@ -27,6 +27,6 @@ function showSlack() {
 
   document.getElementById("slackText")
     .innerHTML =
-    "Slack ID: Arjun Reddy loves Preethi";
+    "Slack ID: U0B16L9UR99";
 
 }
