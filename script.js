@@ -17,7 +17,7 @@ function openEmail() {
 function openGithub() {
 
   window.open(
-    "https://github.com/ArjunreddylovesPreethi",
+    "https://github.com/thesiddharthk",
     "_blank"
   );
 
