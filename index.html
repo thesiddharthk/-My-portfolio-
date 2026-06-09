@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Siddharth K. | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Smoke Background -->
+  <div class="smoke"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+
+    <div class="content">
+
+      <h1 class="title">
+        Siddharth K.
+      </h1>
+
+      <p class="subtitle">
+        Writer • Philosopher • Photographer • Movie Analyst
+      </p>
+
+      <button class="gold-btn" onclick="scrollToSection()">
+        Explore
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills-section">
+
+    <h2>My Skills</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Novel Writing</h3>
+        <p>Crafting emotional stories and cinematic narratives.</p>
+      </div>
+
+      <div class="card">
+        <h3>Philosophy</h3>
+        <p>Deep thinking, existential ideas, and meaningful conversations.</p>
+      </div>
+
+      <div class="card">
+        <h3>Photography</h3>
+        <p>Capturing moody visuals and storytelling frames.</p>
+      </div>
+
+      <div class="card">
+        <h3>Movie Analyst</h3>
+        <p>Analyzing cinema through emotion, symbolism, and direction.</p>
+      </div>
+
+      <div class="card">
+        <h3>People Connector</h3>
+        <p>Building genuine conversations and meaningful connections.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+
+    <h2>Connect With Me</h2>
+
+    <div class="socials">
+
+      <div class="social-card" onclick="openEmail()">
+        <i class="fas fa-envelope"></i>
+        <span>Email</span>
+      </div>
+
+      <div class="social-card" onclick="openGithub()">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+      </div>
+
+      <div class="social-card" onclick="showSlack()">
+        <i class="fab fa-slack"></i>
+        <span>Slack</span>
+      </div>
+
+    </div>
+
+    <p id="slackText"></p>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
