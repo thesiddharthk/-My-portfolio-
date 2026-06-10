@@ -93,6 +93,20 @@ body::after{
 
 }
 
+@keyframes fadeQuote{
+
+  from{
+    opacity:0;
+    transform:translateY(20px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+}
+
 /* Hero Section */
 
 .hero{
@@ -193,6 +207,31 @@ body::after{
   line-height:1.7;
 }
 
+.quote{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+
+  padding:100px 20px;
+}
+
+.quote p{
+  font-family:'Share Tech', sans-serif;
+
+  font-size:2rem;
+  line-height:1.6;
+
+  max-width:800px;
+
+  color:#ffffff;
+
+  text-shadow:
+    0 0 10px rgba(255,255,255,0.15);
+
+  animation:fadeQuote 2s ease;
+}
+
 /* Contact */
 
 .contact{
@@ -270,6 +309,18 @@ body::after{
 
   .subtitle{
     font-size:1rem;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .quote p{
+
+    font-size:1.7rem;
+
+    padding:0 15px;
+
   }
 
 }
