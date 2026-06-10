@@ -182,11 +182,13 @@ body::after{
 }
 
 .card h3{
+  font-family:'Share Tech', sans-serif;
   color:#f4d06f;
   margin-bottom:15px;
 }
 
 .card p{
+  font-family:'Share Tech', sans-serif;
   color:#d3d3d3;
   line-height:1.7;
 }
