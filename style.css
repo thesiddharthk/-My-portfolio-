@@ -90,6 +90,27 @@ body{
   position: relative;
 }
 
+#progress-bar{
+
+  position:fixed;
+
+  top:0;
+  left:0;
+
+  width:0%;
+
+  height:4px;
+
+  background:
+  linear-gradient(
+    90deg,
+    #f4d06f,
+    #ff3333
+  );
+
+  z-index:99999;
+}
+
 body::before{
 
   content:"";
